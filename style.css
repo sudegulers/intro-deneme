@@ -1,0 +1,220 @@
+body{
+    background-image: url('pexels-luis-quintero-2471234.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Inter', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+.container{
+    display:flex;
+    margin-bottom: 8px;
+}
+
+.first-title{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size:41px;
+    opacity: 0.5;
+    margin: 0px;
+}
+
+.second-title{
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.third-title{
+    margin-left: 185px;
+    height: 100px;
+    width:94.9px;
+    background-color: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    opacity: 0.7;
+    font-size:45px;
+    -ms-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);  
+
+}
+
+.fourth-title{
+    display: block;
+    color: #FFFFFF;
+    justify-content: center;
+    font-weight: bolder;
+    color: #FFFFFF;
+    font-size: 30px;
+    justify-content: center;
+}
+
+
+
+.b-1{
+    margin-bottom: 10px;
+    margin-top: 150px;
+    margin-left: 200px;
+    justify-content: center;
+}
+
+.box-1{
+    padding-left: 130px;
+    padding-top: 25px;
+    background-color: black;
+    opacity: 0.5;
+    display: block;
+    width: 400px;
+    height:100px;
+    margin: 0px;
+    -webkit-border-top-right-radius: 25px;
+    -khtml-border-radius-topright: 25px;
+    -moz-border-radius-topright: 25px;
+    border-top-right-radius: 25px;
+    -webkit-border-bottom-right-radius: 25px;
+    -khtml-border-radius-bottomright: 25px;
+    -moz-border-radius-bottomright: 25px;
+    border-bottom-right-radius: 25px;
+    justify-content: center;
+
+}
+
+.box-2{
+    border: 0;
+    padding:0px;
+    display: block;
+    border:0px;
+    width:500px;
+    height:200px;
+    display: flex;
+    margin-top:10px;
+    margin-left: 200px;
+}
+
+.box-3 input{
+    padding-top: 5px;
+    padding-left:40px;
+    color: #FFFFFF;
+    font-size:15px;
+    
+}
+
+.box-3{
+    border: 0;
+    margin:0px;
+    padding:0px;
+    position:relative;
+    width: 420px;
+    height: 60px;
+}
+
+.box-3 i{
+    position:absolute;
+    left:2;
+    top:3px;
+    padding: 16px;
+    color:#000;
+    font-weight: lighter;
+}
+
+#inputEmail3{
+    border:0;
+    margin-bottom:0px;
+    margin-top:10px;
+    position:relative;
+    width: 426px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: black;
+    opacity: 0.5;
+    display: block;
+    color:white;
+
+}
+
+div.col{
+    padding:0px;
+}
+
+.form-check-label{
+    padding-top: 5px;
+    padding-left:30px ;
+    color:#FFFFFF;
+    background-color: black;
+    opacity: 0.5;
+    font-weight: lighter;
+    width: 240px;
+    height: 35px;
+    -webkit-border-bottom-right-radius: 15px;
+	-moz-border-radius-bottomright: 15px;
+	border-bottom-right-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.input-button-2{
+    border:0;
+    padding:0px;
+    color:#FFFFFF;
+    background-color: black;
+    opacity: 0.5;
+    font-weight: lighter;
+    margin-left: 25px;
+    width: 110px;
+    height: 35px;
+    -webkit-border-bottom-right-radius: 15px;
+	-moz-border-radius-bottomright: 15px;
+	border-bottom-right-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.box-4{
+    border:0px;
+    padding-left: 20px;;
+    position:absolute;
+    width: 500px;
+    height: 204px;
+    position:absolute;
+    color:#000;
+
+}
+
+.box-4 input{
+    padding: 5px;
+    width: 15px;
+    height: 15px;
+    cursor:pointer;
+    
+}
+
+.box-4 input .form-check-input{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #222;
+    display: inline-block;
+    border-radius: 3px;
+    display: inline-block;
+
+}
+
+
+.box-4 input .form-check-input:checked{
+    background-color: black;
+    color: black;
+}
+
+
+input[type=checkbox]:checked {
+    color: black;
+}
+
+
+
+
